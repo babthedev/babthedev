@@ -25,10 +25,10 @@ const Home = () => {
         <img src="/src/assets/DragLogo.png" className=' mx-4 xl:mt-4 dark:hidden block' alt="logo" width="40px"/>
         <div className='h-full w-full absolute'>
             <div className='w-44 lg:w-52 lg:h-60 border-content border-2 h-52 relative mx-8 my-14'>
-                <img src="/src/assets/dotted.png" alt="dots" width="50px" className='absolute -top-4 -left-4 dark:hidden'/>
-                <img src="/src/assets/dotted.png" alt="dots" width="50px" className='absolute -bottom-10 -right-8 dark:hidden'/>
-                <img src="/src/assets/DotSquared.jpg" alt="dots" width="50px" className='absolute -top-4 -left-4 hidden dark:block'/>
-                <img src="/src/assets/DotSquared.jpg" alt="dots" width="50px" className='absolute -bottom-10 -right-8 hidden dark:block'/>
+                <img src="portfolio/src/assets/dotted.png" alt="dots" width="50px" className='absolute -top-4 -left-4 dark:hidden'/>
+                <img src="portfolio/src/assets/dotted.png" alt="dots" width="50px" className='absolute -bottom-10 -right-8 dark:hidden'/>
+                <img src="portfolio/src/assets/DotSquared.jpg" alt="dots" width="50px" className='absolute -top-4 -left-4 hidden dark:block'/>
+                <img src="portfolio/src/assets/DotSquared.jpg" alt="dots" width="50px" className='absolute -bottom-10 -right-8 hidden dark:block'/>
                 <div className='w-full h-full bg-gray-200 border-3 border-black absolute top-4 left-4'>
                 </div>
             </div>
