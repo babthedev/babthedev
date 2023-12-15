@@ -7,7 +7,8 @@ const Contact = () => {
   return (
     <section data-aos="fade-up" className='h-screen px-8 md:px-28 lg:px-32 border-t-4 border-gray-200 section bg-bg text-content'>
       {/* Contact Small */}
-        <div className=' mt-48 mb-10 px-6 py-4 lg:hidden lg:w-2/3 ml-auto lg:mt-10 lg:h-4/5'>
+        <div className=' mt-24 mb-10 px-6 py-4 lg:hidden lg:w-2/3 ml-auto lg:mt-10 lg:h-4/5'>
+      <h3 className='py-4 lg:text-xl mb-10 text-content rounded-xl text-center placard-contact border-content border-4'> Can't wait to speak with you 🔊</h3>
             <h2 className='font-bold text-3xl lg:text-5xl'>Reach out to me!</h2>
             <p className='text-lg lg:text-2xl font-normal lg:mt-3'>Got a question or proposal, or just want to say hello? Go ahead.</p>
             <form action="#" className='flex flex-col mt-4'>
@@ -29,7 +30,7 @@ const Contact = () => {
                 <input 
                     type="text"
                     id='message'
-                    className='rounded-none border-b dark:bg-bg border-black dark:border-content h-24 lg:h-40 px-0 text-sm lg:text-lg pt-2 lg:pb-28 pb-22 mb-4 mt-1 focus:border-gray-400 outline-none'
+                    className='rounded-none border-b dark:bg-bg border-black dark:border-content h-24 lg:h-40 px-0 text-sm lg:text-lg pb-16 lg:pb-28 pb-22 mb-4 mt-1 focus:border-gray-400 outline-none'
                     placeholder='Hi, I will like to reach out to you ....'
                      />
                      <button 

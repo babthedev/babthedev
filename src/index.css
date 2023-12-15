@@ -39,6 +39,9 @@ body{
 .placard-project{
     animation: swing 5s linear 2.8s infinite;
 }
+.placard-contact{
+    animation: swing 1.5s linear 2.8s infinite;
+}
 
   @keyframes swing {
     0% {

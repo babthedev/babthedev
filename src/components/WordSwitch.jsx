@@ -6,11 +6,11 @@ const WordSwitch = () => {
     useEffect(()=>{
         const intervalId = setInterval(() => {
             setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length); 
-        }, 2000);
+        }, 1500);
         return () => clearInterval(intervalId)
     }, [])
   return (
-    <div className='overflow-hidden word-switcher whitespace-nowrap'>
+    <div className='whitespace-nowrap'>
         {words.map((word, index)=>(
             <span key={index} className={index === currentWordIndex ? 'inline' : 'hidden'}>{word}</span>
         ))}
