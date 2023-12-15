@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    :root{
+        --color-bg: 0deg 0% 100%;
+        --color-content: 359deg 100% 0%;
+    }
+    @media (prefers-color-scheme:dark){
+        :root{
+            --color-bg: 359deg 100% 0%;
+            --color-content: 0deg 0% 100%;
+        } 
+    }
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.down-arrow{
+    animation: bob 1s infinite;
+}
+@keyframes bob {
+  0%, 100% {
+    transform: translateY(0); /* Start and end position, element is at its normal position */
+  }
+  50% {
+    transform: translateY(-20px); /* Move the element up by 20 pixels at 50% of the animation */
+  }
+  }
+
+
+  
