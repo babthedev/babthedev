@@ -36,7 +36,7 @@ const Home = () => {
             <h2 className='text-4xl lg:text-5xl font-bold text-clip mb-4 lg:mb-6'>HE IS {data.name}</h2>
             <h2 className='text-4xl font-bold text-clip lg:text-5xl lg:mb-6'>HE IS A FRONTEND <span ><WordSwitch/></span></h2>
             </div>
-            <img src="/src/assets/Long Arrow down.svg" width="90px" className='absolute bottom-32 right-64 down-arrow' alt="" />
+            <img src="/src/assets/Long Arrow down.svg" width="90px" className='absolute xl:bottom-32 bottom-16 right-8 xl:right-64 down-arrow' alt="" />
         </div>
     </section> :
     <div>
