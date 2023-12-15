@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 const Contact = () => {
   return (
-    <section data-aos="fade-up" className='h-screen px-8 md:px-28 lg:px-32 border-t-4 border-gray-200 section bg-bg text-content'>
+    <section data-aos="fade-up" className='h-screen overflow-hidden px-8 md:px-28 lg:px-32 border-t-4 border-gray-200 section bg-bg text-content'>
       {/* Contact Small */}
         <div className=' mt-24 mb-10 px-6 py-4 lg:hidden lg:w-2/3 ml-auto lg:mt-10 lg:h-4/5'>
       <h3 className='py-4 lg:text-xl mb-10 text-content rounded-xl text-center placard-contact border-content border-4'> Can't wait to speak with you 🔊</h3>
