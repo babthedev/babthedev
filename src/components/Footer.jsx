@@ -12,7 +12,7 @@ const Footer = () => {
       <div className='border-b-2 border-black pb-28 pt-8'>
         <h2>Say Hello</h2>
         {/* <p className='text-gray-500 dark:text-gray-800'>hello@john.doe</p> */}
-        <p className='text-gray-500 dark:text-gray-800'>twitter.com/babthedev</p>
+        <p className='text-gray-500 dark:text-gray-800'><a href="https://twitter.com/babthedev" target='_blank'>twitter.com/babthedev</a></p>
       </div>
       <div className='flex flex-row mt-8'>
         <h2>&copy;<span>Abdulrahman 2023</span></h2>
