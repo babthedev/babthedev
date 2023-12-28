@@ -11,7 +11,7 @@ const Contact = () => {
       <h3 className='py-4 lg:text-xl mb-10 text-content rounded-xl text-center placard-contact border-content border-4'> Can't wait to speak with you 🔊</h3>
             <h2 className='font-bold text-3xl lg:text-5xl'>Reach out to me!</h2>
             <p className='text-lg lg:text-2xl font-normal lg:mt-3'>Got a question or proposal, or just want to say hello? Go ahead.</p>
-            <form action="#" className='flex flex-col mt-4'>
+            <form method="POST" data-netlify="true" name="contact" netlify netlify-honeypot="bot-field" hidden className='flex flex-col mt-4'>
                 <label htmlFor="name" className='text-base lg:text-xl'>Your name</label>
                 <input 
                     type="text"
@@ -27,12 +27,21 @@ const Contact = () => {
                     className='rounded-none border-b bg-none border-black dark:border-content lg:text-lg h-8 lg:h-12 py-4 text-sm mb-3 lg:mb-4 mt-1 dark:bg-bg focus:border-gray-400 outline-none'
                      />
                 <label htmlFor="message" className='text-base lg:text-xl'>Your Message</label>
-                <input 
+                {/* <input 
                     type="text"
                     id='message'
                     className='rounded-none border-b dark:bg-bg border-black dark:border-content h-24 lg:h-40 px-0 text-sm lg:text-lg pb-16 lg:pb-28 pb-22 mb-4 mt-1 focus:border-gray-400 outline-none'
                     placeholder='Hi, I will like to reach out to you ....'
-                     />
+                     /> */}
+                <textarea
+                    cols="30" 
+                    rows="10"
+                    id='message'
+                    className='rounded-none border-b dark:bg-bg border-black dark:border-content h-24 lg:h-40 px-0 text-sm lg:text-lg pb-16 lg:pb-28 pb-22 mb-4 mt-1 focus:border-gray-400 outline-none'
+                    placeholder='Hi, I will like to reach out to you ....'
+                    >
+
+                    </textarea>
                      <button 
                      type='submit'
                      className='text-xl bg-white lg:text-2xl w-1/3 border-2 border-gray-500 ml-auto dark:bg-bg'

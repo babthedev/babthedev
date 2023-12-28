@@ -17,11 +17,11 @@ const Footer = () => {
       <div className='flex flex-row mt-8'>
         <h2>&copy;<span>Abdulrahman 2023</span></h2>
         <div className='flex flex-row gap-4 ml-auto'>
-          <h2><a href="https://twitter.com/babthedev"></a> TW</h2>
-          <h2><a href="https://"></a> EM</h2>
-          <h2><a href="https://instagram.com/babthedev"></a> IG</h2>
-          <h2><a href="https://github.com/babthedev"></a> GH</h2>
-          <h2><a href="https://www.linkedin.com/in/babthedev/"></a> IN</h2>
+          <h2><a href="https://twitter.com/babthedev" target='_blank'>TW</a></h2>
+          <h2><a href="https://" target='_blank'>EM</a></h2>
+          <h2><a href="https://instagram.com/babthedev" target='_blank'>IG</a></h2>
+          <h2><a href="https://github.com/babthedev" target='_blank'>GH</a></h2>
+          <h2><a href="https://www.linkedin.com/in/babthedev/" target='_blank'>IN</a></h2>
         </div>
       </div>
     </section>
