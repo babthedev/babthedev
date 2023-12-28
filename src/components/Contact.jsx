@@ -47,7 +47,7 @@ const Contact = () => {
                      <button 
                      type='submit'
                      className='text-xl bg-white lg:text-2xl w-1/3 border-2 border-gray-500 ml-auto dark:bg-bg'
-                     >SEND <img src={sendEmail} alt="" /></button>
+                     >SEND <img src={sendEmail} width="25px" className='inline' alt="" /></button>
             </form>
         </div>
 
