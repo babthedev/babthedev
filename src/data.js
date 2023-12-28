@@ -2,40 +2,40 @@ const data = {
     name:'ABDULRAHMAN BELLO',
     projects:[
         {
-            title:'Project1',
+            title:'Drag',
             id: 1,
-            description: 'Project1 is a very Frontend Software Engineer from Brooklyn, New York. My core technologies include: HTML, CSS, SASS, Vanilla JS, React JS, Figma.',
+            description: 'Coming Soon.',
             url: "https://project1.com"
         },
         {
-            title:'Project2',
+            title:'IICWIN website',
             id: 2,
-            description: 'Project1 is a very Frontend Software Engineer from Brooklyn, New York. My core technologies include: HTML, CSS, SASS, Vanilla JS, React JS, Figma.',
-            url: "https://project1.com"
+            description: 'IICWIN is a non-profit organization.',
+            url: "https://iicwin.netlify.app"
         },
         {
-            title:'Project3',
+            title:'Birthday Countdown',
             id: 3,
-            description: 'Project1 is a very Frontend Software Engineer from Brooklyn, New York. My core technologies include: HTML, CSS, SASS, Vanilla JS, React JS, Figma.',
-            url: "https://project1.com"
+            description: 'This app shows users date of birth in realtime. It also shows a countdown to the users next birthday.',
+            url: "https://birthdayapplication.netlify.app/"
         },
         {
-            title:'Project4',
+            title:'Shoe E-commerce Website',
             id: 4,
-            description: 'Project1 is a very Frontend Software Engineer from Brooklyn, New York. My core technologies include: HTML, CSS, SASS, Vanilla JS, React JS, Figma.',
-            url: "https://project1.com"
+            description: 'This is the landing page of an e-commmerce website with loading animations and interesting CTAs.',
+            url: "https://brandedshoe.netlify.app/"
         },
         {
-            title:'Project5',
+            title:'Advice generator',
             id: 5,
-            description: 'Project1 is a very Frontend Software Engineer from Brooklyn, New York. My core technologies include: HTML, CSS, SASS, Vanilla JS, React JS, Figma.',
-            url: "https://project1.com"
+            description: 'Working with RESTful APIs, this is an advice generating app that makes external API calls to display a random advice every time.',
+            url: "https://advicegeneratorfirst.netlify.app"
         },
         {
-            title:'Project6',
+            title:'Introsection Landing Page',
             id: 6,
-            description: 'Project1 is a very Frontend Software Engineer from Brooklyn, New York. My core technologies include: HTML, CSS, SASS, Vanilla JS, React JS, Figma.',
-            url: "https://project1.com"
+            description: 'One of my starter projects with CSS animations and mobile responsiveness.',
+            url: "https://introsection.netlify.app/"
         },
     ],
     profileImage:'',
