@@ -14,7 +14,7 @@ const Home = () => {
   }, []);
   return (
     <>
-    <section data-aos="fade-right"  className={`h-screen overflow-hidden p-2 w-full md:px-28 lg:px-32 section fade-up text-content bg-bg relative`}>
+    <section data-aos="fade-right"  className={`h-screen overflow-hidden px-2 pt-4 w-full md:px-28 lg:px-32 section fade-up text-content bg-bg relative`}>
         <img src={Drag_Logo} className=' mx-4 mt-4 hidden dark:block' alt="logo" width="40px"/>
         <img src={DragLogo} className=' mx-4 xl:mt-4 dark:hidden block' alt="logo" width="40px"/>
         <div className='h-full w-full absolute'>

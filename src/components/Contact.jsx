@@ -3,6 +3,7 @@ import data from '../data'
 import Aos from 'aos'
 import "aos/dist/aos.css";
 import sendEmail from '/src/assets/send-email-1.png'
+import sendEmailLight from '/src/assets/send-email-dark.png'
 
 const Contact = () => {
   return (
@@ -47,7 +48,7 @@ const Contact = () => {
                      <button 
                      type='submit'
                      className='text-xl bg-white lg:text-2xl w-1/3 border-2 mt-5 border-gray-500 ml-auto dark:bg-bg'
-                     >SEND <img src={sendEmail} width="20px" className='inline' alt="" /></button>
+                     >SEND <img src={sendEmail} width="20px" className='hidden dark:inline' alt="" /><img src={sendEmailLight} width="20px" className='dark:hidden inline' alt="" /></button>
             </form>
         </div>
 
@@ -94,7 +95,7 @@ const Contact = () => {
                      <button 
                      type='submit'
                      className='text-xl bg-white lg:text-2xl relative mx-auto xl:mt-4 w-1/3 border-2 border-gray-500 ml-auto dark:bg-bg'
-                     >SEND <img src={sendEmail} width="25px" className='inline' alt="" /></button>
+                     >SEND <img src={sendEmail} width="25px" className='hidden dark:inline' alt="" /><img src={sendEmailLight} width="20px" className='dark:hidden inline' alt="" /></button>
             </form>
         </div>
     </section>
