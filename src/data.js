@@ -1,5 +1,5 @@
 const data = {
-    name:'JOHN DOE',
+    name:'ABDULRAHMAN BELLO',
     projects:[
         {
             title:'Project1',
