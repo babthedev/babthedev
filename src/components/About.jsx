@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 const About = () => {
   return (
     <section data-aos="fade-up" className='h-screen border-t-4 overflow-hidden px-4 md:px-20 lg:px-28 xl:px-32 border-gray-200 section bg-bg text-content' id='about'>
-        <div className='flex flex-col lg:flex-row h-4/5 mt-4 lg:gap-32'>
+        <div className='flex flex-col lg:flex-row h-4/5 mt-2 lg:gap-32'>
         <div className="lg:flex flex-col mt-10 lg:mt-16 ">
          <div className=' px-6 lg:mb-20 mb-4 ml-auto '>
           <h2 className='text-xl lg:text-6xl md:text-3xl font-bold'>{data.about[0].header}</h2>
