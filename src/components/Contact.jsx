@@ -2,6 +2,7 @@ import React from 'react'
 import data from '../data'
 import Aos from 'aos'
 import "aos/dist/aos.css";
+import sendEmail from '/src/assets/send-email-1.png'
 
 const Contact = () => {
   return (
@@ -46,7 +47,7 @@ const Contact = () => {
                      <button 
                      type='submit'
                      className='text-xl bg-white lg:text-2xl w-1/3 border-2 border-gray-500 ml-auto dark:bg-bg'
-                     >SEND</button>
+                     >SEND <img src={sendEmail} alt="" /></button>
             </form>
         </div>
 
