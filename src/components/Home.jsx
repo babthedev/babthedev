@@ -24,7 +24,7 @@ const Home = () => {
                 <img src={dotSquare} alt="dots" width="50px" className='absolute -top-4 -left-4 hidden dark:block'/>
                 <img src={dotSquare} alt="dots" width="50px" className='absolute -bottom-10 -right-8 hidden dark:block'/>
                 <div className='w-full h-full bg-gray-200 border-3 border-black absolute top-4 left-4'>
-                  <img src={bab} alt=""  className='mt-4'/>
+                  <img src={bab} alt=""  className='mt-7'/>
                 </div>
             </div>
             <div className='mx-8 mt-4 -mb-48 md:mt-24 lg:mt-12 lg:py-12 lg:w-2/3 lg:pt-12 w-1/2'>

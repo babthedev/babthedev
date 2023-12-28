@@ -13,6 +13,7 @@ const Footer = () => {
         <h2>Say Hello</h2>
         {/* <p className='text-gray-500 dark:text-gray-800'>hello@john.doe</p> */}
         <p className='text-gray-500 dark:text-gray-800'><a href="https://twitter.com/babthedev" target='_blank'>twitter.com/babthedev</a></p>
+        <p className='text-gray-500 dark:text-gray-800'><a href="https://twitter.com/x?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @x</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
       </div>
       <div className='flex flex-row mt-8'>
         <h2>&copy;<span>Abdulrahman 2023</span></h2>
