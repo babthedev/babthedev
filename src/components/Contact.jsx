@@ -14,7 +14,7 @@ const Contact = () => {
             <form method="POST" data-netlify="true" name="contact" netlify netlify-honeypot="bot-field" hidden className='flex flex-col mt-4'>
             <input type="hidden" name="form-name" value="contact" />
                 <label htmlFor="name" className='text-base lg:text-xl'>Your name</label>
-                <input 
+                {/* <input 
                     type="text"
                     id='name'
                     className='rounded-none border-b bg-none dark:bg-bg border-black dark:border-content  lg:text-lg h-8 lg:h-12 py-4 text-sm mb-3 lg:mb-4 mt-1 focus:border-gray-400 outline-none'
@@ -26,7 +26,7 @@ const Contact = () => {
                     id='email'
                     placeholder='Enter your email address'
                     className='rounded-none border-b bg-none border-black dark:border-content lg:text-lg h-8 lg:h-12 py-4 text-sm mb-3 lg:mb-4 mt-1 dark:bg-bg focus:border-gray-400 outline-none'
-                     />
+                     /> */}
                 <label htmlFor="message" className='text-base lg:text-xl'>Your Message</label>
                 {/* <input 
                     type="text"
@@ -64,7 +64,7 @@ const Contact = () => {
                 <input 
                     type="text"
                     id='name'
-                    className='rounded-none border-b dark:bg-bg border-black dark:border-content lg:text-lg h-8 lg:h-12 py-4 text-sm mb-3 lg:mb-4 mt-1 focus:border-gray-400 outline-none'
+                    className='rounded-none border-b dark:bg-bg border-black dark:border-content lg:text-lg h-8 lg:h-12 py-4 text-sm mb-3 lg:mb-4 mt-1 focus:border-gray-400 outline-none active:border-gray-400'
                     placeholder={data.contact.name.placeholder}
                      />
               </div>
@@ -74,7 +74,7 @@ const Contact = () => {
                     type="text"
                     id='email'
                     placeholder={data.contact.email.placeholder}
-                    className='rounded-none border-b dark:bg-bg border-black dark:border-content lg:text-lg h-8 lg:h-12 py-4 text-sm mb-3 lg:mb-4 mt-1 focus:border-gray-400 outline-none'
+                    className='rounded-none border-b dark:bg-bg border-black dark:border-content lg:text-lg h-8 lg:h-12 py-4 text-sm mb-3 lg:mb-4 mt-1 focus:border-gray-400 outline-none active:border-gray-400'
                      />
               </div>
               </div>
