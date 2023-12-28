@@ -3,6 +3,16 @@ import data from '../data'
 import Aos from 'aos'
 import "aos/dist/aos.css";
 
+import emailLight from '/src/assets/email-logo.png'
+import emailDark from '/src/assets/email-logo-dark.png'
+import githubLight from '/src/assets/github-logo-light.png'
+import githubDark from '/src/assets/github-logo-1.png'
+import linkedIndark from '/src/assets/linkedin-logo-dark.png'
+import linkedInLight from '/src/assets/linkedin-logo.png'
+import instagramLight from '/src/assets/instagram-logo-light.png'
+import instagramDark from '/src/assets/instagram-logo.png'
+import xLogo from '/src/assets/x-logo.png'
+
 const Footer = () => {
   useEffect(()=>{
     Aos.init({duration: 1000});
@@ -17,11 +27,11 @@ const Footer = () => {
       <div className='flex flex-row mt-8'>
         <h2>&copy;<span>Abdulrahman 2023</span></h2>
         <div className='flex flex-row gap-4 ml-auto'>
-          <h2><a href="https://twitter.com/babthedev" target='_blank'>TW</a></h2>
-          <h2><a href="https://" target='_blank'>EM</a></h2>
-          <h2><a href="https://instagram.com/babthedev" target='_blank'>IG</a></h2>
-          <h2><a href="https://github.com/babthedev" target='_blank'>GH</a></h2>
-          <h2><a href="https://www.linkedin.com/in/babthedev/" target='_blank'>IN</a></h2>
+          <h2><a href="https://twitter.com/babthedev" target='_blank'><img src={xLogo} width="30px" alt="x logo" /></a></h2>
+          <h2><a href="https://" target='_blank'><img src={emailLight} width="30px" alt="x logo" /></a></h2>
+          <h2><a href="https://instagram.com/babthedev" target='_blank'><img src={instagramLight} width="30px" alt="x logo" /></a></h2>
+          <h2><a href="https://github.com/babthedev" target='_blank'><img src={githubLight} width="30px" alt="x logo" /></a></h2>
+          <h2><a href="https://www.linkedin.com/in/babthedev/" target='_blank'><img src={linkedIndark} width="30px" alt="x logo" /></a></h2>
         </div>
       </div>
     </section>

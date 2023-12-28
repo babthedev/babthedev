@@ -42,7 +42,7 @@ const data = {
     about: [
         {
             header: 'About Me',
-            paragraph: 'I am John a 19 year old Frontend Software Engineer from Brooklyn, New York. My core technologies include: HTML, CSS, SASS, Vanilla JS, React JS, Figma.',
+            paragraph: 'I am Abdulrahman a 19 year old Frontend Software Engineer. My core technologies include: HTML, CSS, SASS, Vanilla JS, React JS, Figma.',
         },
         {
             header: 'Engineering',
