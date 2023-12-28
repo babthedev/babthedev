@@ -28,9 +28,9 @@ const Footer = () => {
         <h2>&copy;<span>Abdulrahman 2023</span></h2>
         <div className='flex flex-row gap-4 ml-auto'>
           <h2><a href="https://twitter.com/babthedev" target='_blank'><img src={xLogo} width="30px" alt="x logo" /></a></h2>
-          <h2><a href="https://" target='_blank'><img src={emailLight} width="30px" alt="x logo" /></a></h2>
-          <h2><a href="https://instagram.com/babthedev" target='_blank'><img src={instagramLight} width="30px" alt="x logo" /></a></h2>
-          <h2><a href="https://github.com/babthedev" target='_blank'><img src={githubLight} width="30px" alt="x logo" /></a></h2>
+          <h2><a href="https://" target='_blank'><img src={emailDark} width="30px" alt="x logo" /></a></h2>
+          <h2><a href="https://instagram.com/babthedev" target='_blank'><img src={instagramDark} width="30px" alt="x logo" /></a></h2>
+          <h2><a href="https://github.com/babthedev" target='_blank'><img src={githubDark} width="30px" alt="x logo" /></a></h2>
           <h2><a href="https://www.linkedin.com/in/babthedev/" target='_blank'><img src={linkedIndark} width="30px" alt="x logo" /></a></h2>
         </div>
       </div>

@@ -46,8 +46,8 @@ const Contact = () => {
                     </textarea>
                      <button 
                      type='submit'
-                     className='text-xl bg-white lg:text-2xl w-1/3 border-2 border-gray-500 ml-auto dark:bg-bg'
-                     >SEND <img src={sendEmail} width="25px" className='inline' alt="" /></button>
+                     className='text-xl bg-white lg:text-2xl w-1/3 border-2 mt-5 border-gray-500 ml-auto dark:bg-bg'
+                     >SEND <img src={sendEmail} width="20px" className='inline' alt="" /></button>
             </form>
         </div>
 
@@ -94,7 +94,7 @@ const Contact = () => {
                      <button 
                      type='submit'
                      className='text-xl bg-white lg:text-2xl relative mx-auto xl:mt-4 w-1/3 border-2 border-gray-500 ml-auto dark:bg-bg'
-                     >SEND</button>
+                     >SEND <img src={sendEmail} width="25px" className='inline' alt="" /></button>
             </form>
         </div>
     </section>
