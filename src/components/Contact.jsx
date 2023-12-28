@@ -12,6 +12,7 @@ const Contact = () => {
             <h2 className='font-bold text-3xl lg:text-5xl'>Reach out to me!</h2>
             <p className='text-lg lg:text-2xl font-normal lg:mt-3'>Got a question or proposal, or just want to say hello? Go ahead.</p>
             <form method="POST" data-netlify="true" name="contact" netlify netlify-honeypot="bot-field" hidden className='flex flex-col mt-4'>
+            <input type="hidden" name="form-name" value="contact" />
                 <label htmlFor="name" className='text-base lg:text-xl'>Your name</label>
                 <input 
                     type="text"
