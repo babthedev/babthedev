@@ -15,7 +15,7 @@ const Footer = () => {
         <p className='text-gray-500 dark:text-gray-800'>twitter.com/babthedev</p>
       </div>
       <div className='flex flex-row mt-8'>
-        <h2>&copy;<span>{data.name}2023</span></h2>
+        <h2>&copy;<span>Abdulrahman 2023</span></h2>
         <div className='flex flex-row gap-4 ml-auto'>
           <h2>TW</h2>
           <h2>EM</h2>

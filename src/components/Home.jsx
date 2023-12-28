@@ -7,7 +7,7 @@ import Drag_Logo from '/src/assets/Drag Logo.png'
 import DragLogo from '/src/assets/DragLogo.png'
 import dotted from '/src/assets/dotted.png'
 import dotSquare from '/src/assets/DotSquared.jpg'
-import bab from '/src/assets/babthede.jpg'
+import bab from '/src/assets/babthede.png'
 const Home = () => {
   useEffect(()=>{
     Aos.init({duration: 1000});
