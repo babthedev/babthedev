@@ -27,7 +27,7 @@ const Home = () => {
                   <img src={bab} alt=""  className='mt-7'/>
                 </div>
             </div>
-            <div className='mx-8 mt-8 -mb-48 md:mt-24 lg:mt-12 lg:py-12 lg:w-2/3 lg:pt-12 w-1/2'>
+            <div className='mx-8 mt-12 -mb-48 md:mt-24 lg:mt-12 lg:py-12 lg:w-2/3 lg:pt-12 w-1/2'>
             <h2 className='text-4xl md:text-5xl font-bold text-clip mb-4 lg:mb-6 '>I AM {data.name}</h2>
             <h2 className='text-4xl font-bold text-clip md:text-5xl lg:mb-6'>I AM A FRONTEND <span ><WordSwitch/></span></h2>
             </div>

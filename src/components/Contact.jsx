@@ -30,12 +30,6 @@ const Contact = () => {
                     className='rounded-none border-b bg-none border-black dark:border-content lg:text-lg h-8 lg:h-12 py-4 text-sm mb-3 lg:mb-4 mt-1 dark:bg-bg focus:border-gray-400 outline-none'
                      />
                 <label htmlFor="message" className='text-base lg:text-xl'>Your Message</label>
-                {/* <input 
-                    type="text"
-                    id='message'
-                    className='rounded-none border-b dark:bg-bg border-black dark:border-content h-24 lg:h-40 px-0 text-sm lg:text-lg pb-16 lg:pb-28 pb-22 mb-4 mt-1 focus:border-gray-400 outline-none'
-                    placeholder='Hi, I will like to reach out to you ....'
-                     /> */}
                 <textarea
                     cols="30" 
                     rows="10"
@@ -95,7 +89,7 @@ const Contact = () => {
                      <button 
                      type='submit'
                      className='text-xl bg-white lg:text-2xl relative mx-auto xl:mt-4 w-1/3 border-2 border-gray-500 ml-auto dark:bg-bg'
-                     >SEND <img src={sendEmail} width="25px" className='hidden dark:inline' alt="" /><img src={sendEmailLight} width="20px" className='dark:hidden inline' alt="" /></button>
+                     >SEND <img src={sendEmail} width="25px" className='hidden dark:inline' alt="" /><img src={sendEmailLight} width="20px" className='inline dark:hidden' alt="" /></button>
             </form>
         </div>
     </section>
