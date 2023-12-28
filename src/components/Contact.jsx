@@ -14,7 +14,7 @@ const Contact = () => {
             <form method="POST" data-netlify="true" name="contact" netlify netlify-honeypot="bot-field" hidden className='flex flex-col mt-4'>
             <input type="hidden" name="form-name" value="contact" />
                 <label htmlFor="name" className='text-base lg:text-xl'>Your name</label>
-                {/* <input 
+                <input 
                     type="text"
                     id='name'
                     className='rounded-none border-b bg-none dark:bg-bg border-black dark:border-content  lg:text-lg h-8 lg:h-12 py-4 text-sm mb-3 lg:mb-4 mt-1 focus:border-gray-400 outline-none'
@@ -26,7 +26,7 @@ const Contact = () => {
                     id='email'
                     placeholder='Enter your email address'
                     className='rounded-none border-b bg-none border-black dark:border-content lg:text-lg h-8 lg:h-12 py-4 text-sm mb-3 lg:mb-4 mt-1 dark:bg-bg focus:border-gray-400 outline-none'
-                     /> */}
+                     />
                 <label htmlFor="message" className='text-base lg:text-xl'>Your Message</label>
                 {/* <input 
                     type="text"
@@ -57,7 +57,7 @@ const Contact = () => {
             <h2 className='font-bold text-3xl lg:text-5xl'>{data.contact.header}</h2>
             <p className='text-lg lg:text-2xl font-normal lg:mt-3'>{data.contact.paragraph}</p>
           </div>
-            <form action="#" className='flex flex-col mt-4'>
+            <form method="POST" data-netlify="true" name="contact" netlify netlify-honeypot="bot-field" hidden className='flex flex-col mt-4'>
               <div className='flex flex-row gap-12 items-center justify-center mt-4'>
               <div className='flex flex-col w-full'>
                 <label htmlFor="name" className='text-base lg:text-xl'>{data.contact.name.label}</label>
@@ -80,12 +80,15 @@ const Contact = () => {
               </div>
               <div className='flex flex-col'>
                 <label htmlFor="message" className='text-base lg:text-xl'>{data.contact.message.label}</label>
-                <input 
-                    type="text"
+                <textarea
+                    cols="30" 
+                    rows="10"
                     id='message'
-                    className='rounded-none border-b dark:bg-bg border-black dark:border-content h-24 lg:h-40 px-0 text-sm lg:text-lg pt-2 lg:pb-28 pb-22 mb-4 mt-1 focus:border-gray-400 outline-none'
-                    placeholder={data.contact.message.placeholder}
-                     />
+                    className='rounded-none border-b dark:bg-bg border-black dark:border-content h-24 lg:h-40 px-0 text-sm lg:text-lg pb-16 lg:pb-28 pb-22 mb-4 mt-1 focus:border-gray-400 outline-none'
+                    placeholder='Hi, I will like to reach out to you ....'
+                    >
+
+                    </textarea>
               </div>
                      <button 
                      type='submit'
