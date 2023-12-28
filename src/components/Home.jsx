@@ -19,7 +19,7 @@ const Home = () => {
         <img src={DragLogo} className=' mx-4 xl:mt-4 dark:hidden block' alt="logo" width="40px"/>
         <div className='h-full w-full absolute'>
             <div className='w-44 lg:w-52 lg:h-60 border-content border-2 h-52 relative mx-8 my-14'>
-                <img src={dotted} alt="dots" width="50px" className='absolute -bottom-10 -right-8 dark:hidden'/>
+                <img src={dotted} alt="dots" width="50px" className='absolute -top-4 -left-4 dark:hidden'/>
                 <img src={dotted} alt="dots" width="50px" className='absolute -bottom-10 -right-8 dark:hidden'/>
                 <img src={dotSquare} alt="dots" width="50px" className='absolute -top-4 -left-4 hidden dark:block'/>
                 <img src={dotSquare} alt="dots" width="50px" className='absolute -bottom-10 -right-8 hidden dark:block'/>
