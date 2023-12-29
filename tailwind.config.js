@@ -9,6 +9,12 @@ export default {
       colors:{
         bg: 'hsl(var(--color-bg) / <alpha-value>)' ,
         content: 'hsl(var(--color-content) / <alpha-value>)',
+        shoeAccent: "red",
+        iicwinAccent: "orange",
+        dragAccent: "green",
+        adviceAccent: "slate",
+        introAccent: "yellow",
+        birthdayAccent: "pink",
       },
       fontFamily:{
         poppins:'Poppins, sans-serif',

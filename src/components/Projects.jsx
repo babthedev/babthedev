@@ -34,7 +34,7 @@ const Projects = () => {
   };
   const projectCarouselElements = data.projects;
   const renderedCarousel = projectCarouselElements.map((carouselElement)=>{
-    return <Project title={carouselElement.title} key={carouselElement.id} description={carouselElement.description} url={carouselElement.url}/>
+    return <Project title={carouselElement.title} bgColor={carouselElement.accentColor} key={carouselElement.id} description={carouselElement.description} url={carouselElement.url}/>
   })
   return (
     <section data-aos="fade-right"  className={`h-screen border-t-4 border-gray-200 md:px-28 lg:px-32 gap-6  px-8 lg:flex lg:flex-row section bg-bg text-content overflow-hidden relative`}>

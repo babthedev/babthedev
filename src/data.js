@@ -5,36 +5,42 @@ const data = {
             title:'Drag',
             id: 1,
             description: 'Coming Soon.',
+            accentColor: 'green',
             url: "https://project1.com"
         },
         {
             title:'IICWIN website',
             id: 2,
             description: 'IICWIN is a non-profit organization.',
+            accentColor: 'orange',
             url: "https://iicwin.netlify.app"
         },
         {
             title:'Birthday Countdown',
             id: 3,
             description: 'This app shows users date of birth in realtime. It also shows a countdown to the users next birthday.',
+            accentColor: 'pink',
             url: "https://birthdayapplication.netlify.app/"
         },
         {
             title:'Shoe E-commerce Website',
             id: 4,
             description: 'This is the landing page of an e-commmerce website with loading animations and interesting CTAs.',
+            accentColor: 'red',
             url: "https://brandedshoe.netlify.app/"
         },
         {
             title:'Advice generator',
             id: 5,
             description: 'Working with RESTful APIs, this is an advice generating app that makes external API calls to display a random advice every time.',
+            accentColor: 'slate',
             url: "https://advicegeneratorfirst.netlify.app"
         },
         {
             title:'Introsection Landing Page',
             id: 6,
             description: 'One of my starter projects with CSS animations and mobile responsiveness.',
+            accentColor: 'yellow',
             url: "https://introsection.netlify.app/"
         },
     ],
