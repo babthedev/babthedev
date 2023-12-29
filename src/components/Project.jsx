@@ -9,7 +9,7 @@ const Project = ({title, description, url, bgColor}) => {
         </div>
         <div className='h-3/5  p-8'>
           <p className='text-bg mb-4'>{description}</p>
-          <a className={`bg-${bgColor} pt-4`} href={url}>Visit Site</a>
+          <a className={`text-${bgColor} pt-4`} href={url}>Visit Site</a>
         </div>
       </div>
     </div>
