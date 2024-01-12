@@ -4,9 +4,13 @@ import Aos from 'aos'
 import "aos/dist/aos.css";
 import sendEmail from '/src/assets/send-email-1.png'
 import sendEmailLight from '/src/assets/send-email-dark.png'
-// import { useForm, ValidationError } from '@formspree/react';
+import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm("xayrnoya");
+  if (state.succeeded) {
+      return <p>Your message has been received😁</p>;
+  }
   return (
     <section data-aos="fade-up" className='h-screen overflow-hidden px-8 md:px-28 lg:px-32 border-t-4 border-gray-200 section bg-bg text-content'>
       {/* Contact Small */}
@@ -14,7 +18,7 @@ const Contact = () => {
       <h3 className='py-4 lg:text-xl mb-10 text-content rounded-xl text-center placard-contact border-content border-4'> Can't wait to speak with you 🔊</h3>
             <h2 className='font-bold text-3xl lg:text-5xl'>Reach out to me!</h2>
             <p className='text-lg lg:text-2xl font-normal lg:mt-3'>Got a question or proposal, or just want to say hello? Go ahead.</p>
-            <form method="POST" action="https://formspree.io/f/xayrnoya" className='flex flex-col mt-4'>
+            <form method="POST" onSubmit={handleSubmit} className='flex flex-col mt-4'>
             <input type="hidden" name="form-name" value="contact" />
                 <label htmlFor="name" className='text-base lg:text-xl'>Your name</label>
                 <input 
@@ -50,6 +54,7 @@ const Contact = () => {
       />
                      <button 
                      type='submit'
+                     disabled={state.submitting}
                      className='text-xl bg-white lg:text-2xl w-1/3 border-2 mt-5 border-gray-500 ml-auto dark:bg-bg'
                      >SEND <img src={sendEmail} width="20px" className='hidden dark:inline' alt="" /><img src={sendEmailLight} width="20px" className='dark:hidden inline' alt="" /></button>
                      
@@ -63,7 +68,7 @@ const Contact = () => {
             <h2 className='font-bold text-3xl lg:text-5xl'>{data.contact.header}</h2>
             <p className='text-lg lg:text-2xl font-normal lg:mt-3'>{data.contact.paragraph}</p>
           </div>
-            <form method="POST" action="https://formspree.io/f/xayrnoya">
+            <form method="POST" onSubmit={handleSubmit}>
               <div className='flex flex-row gap-12 items-center justify-center mt-4'>
               <div className='flex flex-col w-full'>
                 <label htmlFor="name" className='text-base lg:text-xl'>{data.contact.name.label}</label>
@@ -106,6 +111,7 @@ const Contact = () => {
               </div>
                      <button 
                      type='submit'
+                     disabled={state.submitting}
                      className='text-xl bg-white lg:text-2xl relative mx-auto xl:mt-4 w-1/3 border-2 border-gray-500 ml-auto dark:bg-bg'
                      >SEND <img src={sendEmail} width="25px" className='hidden dark:inline' alt="" /><img src={sendEmailLight} width="20px" className='inline dark:hidden' alt="" /></button>
             </form>
