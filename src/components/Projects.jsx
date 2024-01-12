@@ -46,6 +46,7 @@ const Projects = () => {
           </div>
         </div>
          <div className='bg-gray-200 h-2/3 rounded-xl lg:w-2/3 lg:my-16 lg:h-4/5 lg:ml-auto px-6 flex flex-col justify-center mt-56 relative lg:p-20'>
+          <h2>My work</h2>
          <Slider {...settings}>
           {renderedCarousel}
           </Slider>
