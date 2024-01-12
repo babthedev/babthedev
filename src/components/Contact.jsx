@@ -8,9 +8,11 @@ import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("xayrnoya");
-  if (state.succeeded) {
-      return <p>Your message has been received😁</p>;
-  }
+  setTimeout(() => { 
+    if (state.succeeded) {
+        return <p>Thanks, your message has been received😁</p>;
+    }
+  }, 2000);
   return (
     <section data-aos="fade-up" className='h-screen overflow-hidden px-8 md:px-28 lg:px-32 border-t-4 border-gray-200 section bg-bg text-content'>
       {/* Contact Small */}
