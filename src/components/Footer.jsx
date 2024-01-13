@@ -2,14 +2,8 @@ import React, {useEffect} from 'react'
 import data from '../data'
 import Aos from 'aos'
 import "aos/dist/aos.css";
-
-import emailLight from '/src/assets/email-logo.png'
-import emailDark from '/src/assets/email-logo-dark.png'
-import githubLight from '/src/assets/github-logo-light.png'
 import githubDark from '/src/assets/github-logo-1.png'
 import linkedIndark from '/src/assets/linkedin-logo-dark.png'
-import linkedInLight from '/src/assets/linkedin-logo.png'
-import instagramLight from '/src/assets/instagram-logo-light.png'
 import instagramDark from '/src/assets/instagram-logo.png'
 import xLogo from '/src/assets/x-logo.png'
 
@@ -27,11 +21,10 @@ const Footer = () => {
       <div className='flex flex-row mt-8'>
         <h2>&copy;<span>Abdulrahman 2023</span></h2>
         <div className='flex flex-row gap-4 ml-auto'>
-          <h2><a href="https://twitter.com/babthedev" target='_blank'><img src={xLogo} width="30px" alt="x logo" /></a></h2>
-          <h2><a href="https://" target='_blank'><img src={emailDark} width="30px" alt="x logo" /></a></h2>
-          <h2><a href="https://instagram.com/babthedev" target='_blank'><img src={instagramDark} width="30px" alt="x logo" /></a></h2>
-          <h2><a href="https://github.com/babthedev" target='_blank'><img src={githubDark} width="30px" alt="x logo" /></a></h2>
-          <h2><a href="https://www.linkedin.com/in/babthedev/" target='_blank'><img src={linkedIndark} width="30px" alt="x logo" /></a></h2>
+          <h2><a href="https://twitter.com/babthedev" target='_blank'><img src={xLogo} width="30px" alt="Abdulrahman's X" /></a></h2>
+          <h2><a href="https://instagram.com/babthedev" target='_blank'><img src={instagramDark} width="30px" alt="Abdulrahman's Instagram" /></a></h2>
+          <h2><a href="https://github.com/babthedev" target='_blank'><img src={githubDark} width="30px" alt="Abdulrahman's Github" /></a></h2>
+          <h2><a href="https://www.linkedin.com/in/babthedev/" target='_blank'><img src={linkedIndark} width="30px" alt="Abdulrahman's Linkedin" /></a></h2>
         </div>
       </div>
     </section>

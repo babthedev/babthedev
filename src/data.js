@@ -4,9 +4,9 @@ const data = {
         {
             title:'Drag',
             id: 1,
-            description: 'Coming Soon.',
+            description: 'Drag is a fintech savings app. This app allows users to track and manage their finances in real time.',
             accentColor: 'green-700',
-            url: "https://project1.com"
+            url: "https://dragsave.netlify.app"
         },
         {
             title:'IICWIN website',

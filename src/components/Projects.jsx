@@ -46,10 +46,11 @@ const Projects = () => {
           </div>
         </div>
          <div className='bg-gray-200 h-2/3 rounded-xl lg:w-2/3 lg:my-16 lg:h-4/5 lg:ml-auto px-6 flex flex-col justify-center mt-56 relative lg:p-20'>
-          <h2>My work</h2>
+          <h2 className='text-center text-bg text-2xl mb-4 lg:text-4xl lg:mb-8 font-semibold'>My work</h2>
          <Slider {...settings}>
           {renderedCarousel}
           </Slider>
+          <h2 className='text-center text-bg text-xl mb-4 lg:text-2xl lg:mb-8 font-medium'>Visit the links to check out the projects.</h2>
         </div>
     </section>
   )
