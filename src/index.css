@@ -14,6 +14,13 @@
         } 
     }
 }
+@media (min-width: 768px) {
+  .hero-text{
+    font-size: 4.5rem;
+    line-height: 4rem;
+    text-align: start;
+  }
+}
 
 body{
     font-family: 'Poppins', sans-serif;

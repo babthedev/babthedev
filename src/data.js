@@ -1,5 +1,5 @@
 const data = {
-    name:'ABDULRAHMAN BELLO',
+    name:'Abdulrahman Bello',
     projects:[
         {
             title:'Drag',
@@ -9,39 +9,11 @@ const data = {
             url: "https://dragsave.netlify.app"
         },
         {
-            title:'IICWIN website',
+            title:'IICWIN',
             id: 2,
             description: 'IICWIN is a non-profit organization.',
             accentColor: 'orange-700',
             url: "https://iicwin.netlify.app"
-        },
-        {
-            title:'Birthday Countdown',
-            id: 3,
-            description: 'This app shows users date of birth in realtime. It also shows a countdown to the users next birthday.',
-            accentColor: 'pink-700',
-            url: "https://birthdayapplication.netlify.app/"
-        },
-        {
-            title:'Shoe E-commerce Website',
-            id: 4,
-            description: 'This is the landing page of an e-commmerce website with loading animations and interesting CTAs.',
-            accentColor: 'red-700',
-            url: "https://brandedshoe.netlify.app/"
-        },
-        {
-            title:'Advice generator',
-            id: 5,
-            description: 'Working with RESTful APIs, this is an advice generating app that makes external API calls to display a random advice every time.',
-            accentColor: 'slate-700',
-            url: "https://advicegeneratorfirst.netlify.app"
-        },
-        {
-            title:'Introsection Landing Page',
-            id: 6,
-            description: 'One of my starter projects with CSS animations and mobile responsiveness.',
-            accentColor: 'yellow-700',
-            url: "https://introsection.netlify.app/"
         },
     ],
     profileImage:'',
@@ -60,7 +32,7 @@ const data = {
         },
         {
             header: 'Design',
-            paragraph: 'Step into my world, where I break free from the artboard and dive int stylesheets - playing with font sizes arranging layouts of different elements. My goal is to create user experience that blend functionality and fashion.',
+            paragraph: 'Step into my world, where I break free from the artboard and dive into stylesheets - playing with font sizes arranging layouts of different elements. My goal is to create user experience that blend functionality and fashion.',
         }
     ],
     contact: {

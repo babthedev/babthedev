@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 const WordSwitch = () => {
-    const words = ['Frontend', 'Technical'];
+    const words = ['Developer', 'Writer'];
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
     useEffect(()=>{
         const intervalId = setInterval(() => {
@@ -12,7 +12,7 @@ const WordSwitch = () => {
   return (
     <div className='whitespace-nowrap'>
         {words.map((word, index)=>(
-            <span key={index} className={index === currentWordIndex ? 'inline hero-text' : 'hidden '}>{word}</span>
+            <span key={index} className={index === currentWordIndex ? 'inline hero-text' : 'hidden'}>{word}</span>
         ))}
     </div>
   );

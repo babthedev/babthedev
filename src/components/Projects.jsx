@@ -1,57 +1,73 @@
 import React, { useEffect, useState } from 'react'
-import Project from './Project'
+import { Link } from 'react-router-dom';
 import data from '../data'
 import "aos/dist/aos.css";
 import Aos from 'aos';
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-import ideasDark from '/src/assets/Ideas to Projects.png';
-import ideasLight from '/src/assets/Ideas to Projects Light.png';
+import CustomSubstackEmbed from './CustomSubstackEmbed';
+import SubstackFeedEmbed from './SubstackFeedEmbed';
 
 
 const Projects = () => {
-  console.log(window.innerWidth);
-  const settings = {
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
-  const projectCarouselElements = data.projects;
-  const renderedCarousel = projectCarouselElements.map((carouselElement)=>{
-    return <Project title={carouselElement.title} bgColor={carouselElement.accentColor} key={carouselElement.id} description={carouselElement.description} url={carouselElement.url}/>
-  })
   return (
-    <section data-aos="fade-right"  className={`h-screen border-t-4 border-gray-200 md:px-28 lg:px-32 gap-6  px-8 lg:flex lg:flex-row section bg-bg text-content overflow-hidden relative`}>
-        <div className='flex flex-col gap-0'>
-          <h3 className='p-4 lg:text-xl text-content rounded-xl w-full mt-6 -mb-64 placard-project lg:mt-8 border-content border-4 md:mt-10'> I've built awesome projects and solutions over the years ranging from marketing websites to fintech apps which provide elegant and accesible user experiences.</h3>
-          <div className=''>
-            <img src={ideasDark} className=' mx-2 mt-96 rotate-12 hidden lg:block lg:dark:hidden' alt="ideas image" width="500px"/>
-            <img src={ideasLight} className=' mx-2 mt-96 rotate-12 hidden lg:hidden lg:dark:block' alt="ideas image" width="500px"/>
-          </div>
+    <section data-aos="fade-up"  className={`h-screen border-t-4 border-gray-200 md:px-28 lg:px-32 gap-6  px-8 lg:flex lg:flex-row section bg-bg text-content overflow-hidden relative`}>
+      <div className='flex flex-col lg:flex-row lg:mt-12 mt-8 md:mt-24 lg:mb-12 mb-2 lg:border-2 border-white'>
+        <div className='lg:w-1/2 lg:px-20 px-8'>
+          <h2 className='lg:mt-20 mt-8 hero-text text-2xl md:text-6xl w-full font-bold lg:w-3/4'>I design and build stuff</h2>
+          <p className='text-xl md:text-2xl font-light lg:mt-10 mt-6'>Open source projects, web apps and experimentals.</p>
+          <Link to="/work">
+        <button className='lg:text-xl text-md font-light py-2 lg:py-4 px-6 lg:px-10 border border-content lg:mt-16 mt-8 hover:font-normal hover:bg-content hover:text-bg text-center'>See my work</button>
+        </Link>
         </div>
-         <div className='bg-gray-200 h-2/3 rounded-xl lg:w-2/3 lg:my-16 lg:h-4/5 lg:ml-auto px-6 flex flex-col justify-center mt-56 relative lg:p-20'>
-          <h2 className='text-center text-bg text-2xl mb-4 lg:text-4xl lg:mb-8 font-semibold'>My work</h2>
-         <Slider {...settings}>
-          {renderedCarousel}
-          </Slider>
-          <h2 className='text-center text-bg text-xl mb-4 lg:text-2xl lg:mb-8 font-medium'>Visit the links to check out the projects.</h2>
+        <div className='hidden lg:block'>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
+          <p className='h-4 text-2xl font-extralight'>|</p>
         </div>
+        <hr className='lg:hidden mt-6 bg-content'/>
+        <div className='lg:w-1/2 lg:px-20 px-8'>
+        <h2 className='lg:mt-20 mt-8 lg:text-6xl text-2xl hero-text w-full md:text-6xl font-bold '>I write a weekly email newsletter</h2>
+          <p className='text-xl md:text-2xl lg:text-xl font-light mt-6'>I cover updates about Big Tech, consumer tech and startups through the view of an enthusiast.</p>
+          <SubstackFeedEmbed/>
+          <CustomSubstackEmbed/>
+        </div>
+      </div>
     </section>
   )
 }
