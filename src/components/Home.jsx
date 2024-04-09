@@ -34,8 +34,8 @@ const Home = () => {
                 <div className='w-28 md:w-80 md:h-80 border-content border-2 h-52 relative hidden lg:hidden md:block md:top-2 top-0 right-0 md:right-0 mx-8 my-14 rounded-'>
                   <img src={dotted} alt="dots" width="100px" className='absolute -top-10 -left-10 dark:hidden'/>
                   <img src={dotted} alt="dots" width="100px" className='absolute -bottom-16 -right-16 dark:hidden'/>
-                  <img src={dotSquare} alt="dots" width="50px" className='absolute -top-4 -left-4 hidden dark:block'/>
-                  <img src={dotSquare} alt="dots" width="50px" className='absolute -bottom-10 -right-8 hidden dark:block'/>
+                  <img src={dotSquare} alt="dots" width="100px" className='absolute -top-4 -left-4 hidden dark:block'/>
+                  <img src={dotSquare} alt="dots" width="100px" className='absolute -bottom-10 -right-8 hidden dark:block'/>
                     <img src={bab} alt="" width="1000px"  className='absolute top-6 left-6 z-50 rounded-'/>
                   {/* <div className='w-full h-full bg-gray-200 border-3 border-black absolute top-6 left-6'>
                   </div> */}
@@ -51,17 +51,17 @@ const Home = () => {
           </div>
       </section>
     </div>
-    <div className="w-1/3 hidden lg:block bg-gray-200"></div>
+    <div className="w-1/3 hidden lg:block bg-content"></div>
     <div className='w-28 lg:w-80 lg:h-80 border-content border-2 h-52 absolute hidden lg:block lg:top-32 top-0 right-0 lg:right-96 mx-8 my-14 rounded-full'>
                   <img src={dotted} alt="dots" width="100px" className='absolute -top-10 -left-10 dark:hidden'/>
-                  <img src={dotted} alt="dots" width="100px" className='absolute -bottom-16 -right-16 dark:hidden'/>
-                  <img src={dotSquare} alt="dots" width="50px" className='absolute -top-4 -left-4 hidden dark:block'/>
-                  <img src={dotSquare} alt="dots" width="50px" className='absolute -bottom-10 -right-8 hidden dark:block'/>
-                    <img src={bab} alt="" width="1000px"  className='absolute top-10 left-12 z-50 rounded-full'/>
+                  <img src={dotted} alt="dots" width="100px" className='absolute -bottom-36 -right-28 dark:block hidden'/>
+                  <img src={dotSquare} alt="dots" width="100px" className='absolute -top-10 -z-2 -left-10 hidden dark:block'/>
+                  <img src={dotSquare} alt="dots" width="100px" className='absolute -bottom-36 -right-28 dark:hidden block'/>
+                  <img src={bab} alt="" width="1000px"  className='absolute top-10 left-12 z-50 rounded-full'/>
                   {/* <div className='w-full h-full bg-gray-200 border-3 border-black absolute top-6 left-6'>
                   </div> */}
               </div>
-    <div className='w-28 lg:w-80 lg:h-80 border-content border-2 h-52 absolute hidden lg:block lg:top-56 top-0 right-0 lg:right-72 -z-25 mx-8 my-14 rounded-full'>
+    <div className='w-28 lg:w-80 lg:h-80 border-bg border-2 h-52 absolute hidden lg:block lg:top-56 top-0 right-0 lg:right-72 -z-25 mx-8 my-14 rounded-full'>
               </div>
     </div>
   )
