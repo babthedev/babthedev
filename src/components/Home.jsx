@@ -19,17 +19,12 @@ const Home = () => {
           {/* <img src={Drag_Logo} className=' mx-4 mt-4 hidden dark:block' alt="logo" width="40px"/>
           <img src={DragLogo} className=' mx-4 xl:mt-4 dark:hidden block' alt="logo" width="40px"/> */}
           <div className='h-full w-full absolute'>
-              <div className='mx-8 mt-12 -mb-48 md:mt-24 lg:mt-32 lg:py-12 lg:w-2/3 lg:pt-6 w-full'>
+              <div className='mx-8 mt-12 -mb-48 md:mt-24 relative lg:mt-32 lg:py-12 lg:w-2/3 lg:pt-6 w-full'>
                 <h2 className='text-2xl md:text-5xl text-clip mb-4 lg:mb-6 mt-16 lg:mt-0'>{data.name}</h2>
                 <h2 className='font-bold text-clip md:text-5xl lg:mb-6'><span className='hero-text text-5xl'>Frontend</span></h2>
                 <h2 className=' font-bold text-clip md:text-5xl lg:mb-6'><span className='hero-text text-5xl'>Developer.</span></h2>
-                <div className='w-52 md:hidden border-content relative border-2  mx-8 mt-14'>
-                <img src={dotted} alt="dots" width="50px" className='absolute -top-6 -left-6 dark:hidden'/>
-                  <img src={dotted} alt="dots" width="50px" className='absolute -bottom-4 -right-4 dark:hidden'/>
-                  <img src={dotSquare} alt="dots" width="50px" className='absolute -top-4 -left-4 hidden dark:block'/>
-                  <img src={dotSquare} alt="dots" width="50px" className='absolute -bottom-10 -right-8 hidden dark:block'/>
-                  
-                  <img src={bab} alt="" width="200px"  className=''/>
+                <div className='w-60 md:hidden border-content px-auto border-4  mx-8 mt-6 rounded-full'>                 
+                  <img src={bab} alt="" width="200px"  className='w-60 z-50  rounded-full'/>
                 </div>
                 <div className='w-28 md:w-80 md:h-80 border-content border-2 h-52 relative hidden lg:hidden md:block md:top-2 top-0 right-0 md:right-0 mx-8 my-14 rounded-'>
                   <img src={dotted} alt="dots" width="100px" className='absolute -top-10 -left-10 dark:hidden'/>

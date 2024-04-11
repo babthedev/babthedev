@@ -9,7 +9,7 @@ import SubstackFeedEmbed from './SubstackFeedEmbed';
 
 const Projects = () => {
   return (
-    <section data-aos="fade-up"  className={`h-screen border-t-4 border-gray-200 md:px-28 lg:px-32 gap-6  px-8 lg:flex lg:flex-row section bg-bg text-content overflow-hidden relative`}>
+    <section data-aos="fade-up"  className={`h-screen border-t-4 border-gray-200 md:px-28 lg:px-32 gap-6  px-2 lg:flex lg:flex-row section bg-bg text-content overflow-hidden relative`}>
       <div className='flex flex-col lg:flex-row lg:mt-12 mt-8 md:mt-24 lg:mb-12 mb-2 l'>
         <div className='lg:w-1/2 lg:px-20 px-8'>
           <h2 className='lg:mt-20 mt-8 hero-text text-2xl md:text-6xl w-full font-bold lg:w-3/4'>I design and build stuff</h2>

@@ -12,11 +12,11 @@ const Contact = () => {
       return <p className='mt-8 mb-8 text-center lg:text-3xl'>Thanks, your message has been received😁</p>;
   }
   return (
-    <section data-aos="fade-up" className='h-screen overflow-hidden px-8 md:px-28 lg:px-32 border-t-4 border-gray-200 section bg-bg text-content'>
+    <section data-aos="fade-up" className='h-screen overflow-hidden px-2 md:px-28 lg:px-32 border-t-4 border-gray-200 section bg-bg text-content'>
       {/* Contact Small */}
         <div className=' mt-24 mb-10 px-6 py-4 md:hidden lg:w-2/3 ml-auto lg:mt-10 lg:h-4/5 w-full'>
-          <div className='w-full'>
-            <h2 className='font-bold text-3xl lg:text-5xl'>Reach out to me!</h2>
+          <div className='w-full text-center'>
+            <h2 className='font-bold text-4xl lg:text-5xl'>Reach out to me!</h2>
             <p className='text-lg lg:text-2xl font-light lg:mt-3'>Got a question or proposal, or just want to say hello? Go ahead.</p>
           </div>
             <form method="POST" onSubmit={handleSubmit} className='flex flex-col mt-4'>
