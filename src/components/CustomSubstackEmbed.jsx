@@ -5,7 +5,7 @@ const CustomSubstackEmbed = () => {
     // Define CustomSubstackWidget object
     window.CustomSubstackWidget = {
       substackUrl: "babthedev.substack.com",
-      placeholder: "example@gmail.com",
+      placeholder: "Your email address",
       buttonText: "Start Reading",
       theme: "custom",
       colors: {

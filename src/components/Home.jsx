@@ -21,8 +21,10 @@ const Home = () => {
           <div className='h-full w-full absolute'>
               <div className='mx-8 mt-12 -mb-48 md:mt-24 relative lg:mt-32 lg:py-12 lg:w-2/3 lg:pt-6 w-full'>
                 <h2 className='text-2xl md:text-5xl text-clip mb-4 lg:mb-6 mt-16 lg:mt-0'>{data.name}</h2>
-                <h2 className='font-bold text-clip md:text-5xl lg:mb-6'><span className='hero-text text-5xl'>Frontend</span></h2>
+                {/* <h2 className='font-bold text-clip md:text-5xl lg:mb-6'><span className='hero-text text-5xl'>Frontend</span></h2> */}
                 <h2 className=' font-bold text-clip md:text-5xl lg:mb-6'><span className='hero-text text-5xl'>Developer.</span></h2>
+                <h2 className=' font-bold text-clip md:text-5xl lg:mb-6'><span className='hero-text text-5xl'>Writer..</span></h2>
+                <h2 className=' font-bold text-clip md:text-5xl lg:mb-6'><span className='hero-text text-5xl'>Creator...</span></h2>
                 <div className='w-60 md:hidden border-content px-auto border-4  mx-8 mt-6 rounded-full'>                 
                   <img src={bab} alt="" width="200px"  className='w-60 z-50  rounded-full'/>
                 </div>
