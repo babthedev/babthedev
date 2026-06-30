@@ -1,56 +1,196 @@
-──────────────────────────────────────────────
+<div align="center">
 
-ASCII Logo
+# Abdulrahman Bello
 
-Abdulrahman Bello
+### Software Engineer • TypeScript • AI • SaaS • Open Source
 
-Software Engineer
-Building AI-powered SaaS, Developer Tools,
-and Open Source Infrastructure.
+Building scalable software, AI-powered products, and developer tools with a focus on engineering quality, long-term maintainability, and real-world impact.
 
-[Portfolio]
-[LinkedIn]
-[X]
-[Email]
+<br>
 
-──────────────────────────────────────────────
+<a href="https://your-portfolio.com">Portfolio</a> •
+<a href="https://linkedin.com/in/your-profile">LinkedIn</a> •
+<a href="https://x.com/your-handle">X</a> •
+<a href="mailto:you@example.com">Email</a>
 
-About
+</div>
 
-──────────────────────────────────────────────
+---
 
-Currently Building
+# About
 
-──────────────────────────────────────────────
+I'm a software engineer passionate about building products that solve meaningful problems.
 
-Highlighted Projects
+My interests span backend engineering, distributed systems, AI applications, and developer infrastructure. I enjoy designing software that remains maintainable as it grows—from architecture and APIs to deployment and operations.
 
-──────────────────────────────────────────────
+I'm currently working toward becoming a world-class engineer while building open-source software and production-grade SaaS products.
 
-Open Source
+---
 
-──────────────────────────────────────────────
+# Currently Building
 
-Tech Stack
+- Customer Feedback Intelligence Platform
+- Digital Compliance Auditor
+- Personal Portfolio
+- babworld
+- Open Source Contributions
 
-──────────────────────────────────────────────
+---
 
-Engineering Philosophy
+# Featured Projects
 
-──────────────────────────────────────────────
+## Customer Feedback Intelligence Platform
 
-Currently Learning
+An AI-powered platform that aggregates customer feedback across multiple channels, identifies recurring issues, performs sentiment analysis, and produces actionable insights for businesses.
 
-──────────────────────────────────────────────
+**Core Areas**
 
-GitHub Stats
+- AI
+- NLP
+- Analytics
+- Data Pipelines
+- Reporting
 
-──────────────────────────────────────────────
+**Stack**
 
+- TypeScript
+- Next.js
+- PostgreSQL
+- Redis
+- Docker
+- OpenAI
 
+---
 
+## Digital Compliance Auditor
 
+A compliance platform that automates policy verification and regulatory checks, helping businesses identify compliance gaps and generate audit-ready reports.
 
+**Core Areas**
+
+- Compliance
+- AI
+- Workflow Automation
+- Reporting
+
+**Stack**
+
+- TypeScript
+- Next.js
+- PostgreSQL
+- Docker
+
+---
+
+## Portfolio Website
+
+A modern engineering portfolio showcasing projects, architecture decisions, technical writing, and engineering case studies.
+
+---
+
+# Open Source
+
+Open source is a long-term commitment rather than an occasional activity.
+
+Current goals include:
+
+- Contribute to Supabase
+- Contribute to PostHog
+- Build reusable TypeScript libraries
+- Publish developer tooling
+- Maintain production-quality open-source projects
+
+---
+
+# Technology
+
+|Frontend|Backend|Databases|Infrastructure|
+|---------|---------|---------|--------------|
+|React|Node.js|PostgreSQL|Docker|
+|Next.js|Express|Redis|GitHub Actions|
+|TypeScript|REST APIs|Prisma|Linux|
+
+---
+
+# Engineering Interests
+
+- Distributed Systems
+- Backend Engineering
+- SaaS Architecture
+- Artificial Intelligence
+- Developer Experience
+- Performance Engineering
+- System Design
+- Open Source
+- Cloud Infrastructure
+
+---
+
+# Currently Studying
+
+- Advanced Algorithms & Data Structures
+- Distributed Systems
+- Kubernetes
+- Cloud Architecture
+- Software Architecture
+- Operating Systems
+- Computer Networks
+- Database Internals
+
+---
+
+# Engineering Philosophy
+
+> Great software is built for the engineer who will maintain it years from now.
+>
+> I value simplicity over cleverness, clarity over complexity, and systems that continue to scale—not only technically, but also for the people who build and maintain them.
+
+---
+
+# This Year
+
+- Build multiple production-ready SaaS platforms
+- Become an active open-source contributor
+- Publish technical articles and engineering case studies
+- Deepen expertise in distributed systems
+- Master software engineering interview fundamentals
+- Continue learning from real-world systems and production architecture
+
+---
+
+# Repository Standards
+
+Every project aims to include:
+
+- Clear documentation
+- Thoughtful architecture
+- Automated testing
+- CI/CD
+- Issue tracking
+- Project roadmap
+- Clean commit history
+- Production-quality code
+
+---
+
+# GitHub
+
+As this profile grows, you'll find:
+
+- Production-ready applications
+- Engineering write-ups
+- Open-source libraries
+- Architecture documentation
+- Technical experiments
+- Learning projects
+
+---
+
+<div align="center">
+
+**Building software that lasts.**
+
+</div>
 
 
 
