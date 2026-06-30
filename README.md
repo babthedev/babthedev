@@ -1,3 +1,62 @@
+──────────────────────────────────────────────
+
+ASCII Logo
+
+Abdulrahman Bello
+
+Software Engineer
+Building AI-powered SaaS, Developer Tools,
+and Open Source Infrastructure.
+
+[Portfolio]
+[LinkedIn]
+[X]
+[Email]
+
+──────────────────────────────────────────────
+
+About
+
+──────────────────────────────────────────────
+
+Currently Building
+
+──────────────────────────────────────────────
+
+Highlighted Projects
+
+──────────────────────────────────────────────
+
+Open Source
+
+──────────────────────────────────────────────
+
+Tech Stack
+
+──────────────────────────────────────────────
+
+Engineering Philosophy
+
+──────────────────────────────────────────────
+
+Currently Learning
+
+──────────────────────────────────────────────
+
+GitHub Stats
+
+──────────────────────────────────────────────
+
+
+
+
+
+
+
+
+
+
+
 # Abdulrahman Bello
 
 Software Engineer focused on building scalable SaaS platforms, AI-powered applications, and developer tools.
